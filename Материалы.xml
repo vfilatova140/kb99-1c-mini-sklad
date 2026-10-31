@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<CommonPicture uuid="26b7a705-f6c5-4c3b-b9de-9ace1955a500">
+	<Report uuid="42c1ded9-3871-44d4-b7d7-2ed9c043ed6e">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.Материалы" category="Object">
+				<xr:TypeId>3c525661-22f1-4b7e-a1e1-ac733794e448</xr:TypeId>
+				<xr:ValueId>1130c398-3b1b-41b8-bd87-5f1dcf82f328</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.Материалы" category="Manager">
+				<xr:TypeId>03faa424-1378-409f-801e-3fd313fcdaaa</xr:TypeId>
+				<xr:ValueId>3f61c461-bb01-4d52-b701-0396e25d2af5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
 			<Name>Материалы</Name>
 			<Synonym>
@@ -10,8 +20,21 @@
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<AvailabilityForChoice>false</AvailabilityForChoice>
-			<AvailabilityForAppearance>false</AvailabilityForAppearance>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<MainDataCompositionSchema>Report.Материалы.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+			<DefaultSettingsForm/>
+			<AuxiliarySettingsForm/>
+			<DefaultVariantForm/>
+			<VariantsStorage/>
+			<SettingsStorage/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
-	</CommonPicture>
+		<ChildObjects>
+			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
+		</ChildObjects>
+	</Report>
 </MetaDataObject>
